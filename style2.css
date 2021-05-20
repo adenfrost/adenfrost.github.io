@@ -21,7 +21,7 @@ input[type="text"]{
 {
     text-align:center;
 }
-#submit_button2{
+/* #submit_button2{
     border-radius:30px;
     border-width:1px;
     background-color:lightgrey;
@@ -34,7 +34,11 @@ input[type="text"]{
     background-color:lightgrey;
     border-color:lightgrey;
     outline:none;
-}
-@media screen and(min-width :300px)and(max-width :768 px){
-    
+} */
+.btn{
+    border-radius:30px;
+    border-width:1px;
+    background-color:lightgrey;
+    border-color:lightgrey;
+    outline:none;
 }
