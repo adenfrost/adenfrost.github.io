@@ -41,3 +41,50 @@ input[type="text"]{
     border-color:lightgrey;
     outline:none;
 }
+@media screen and (max-width:576px){
+    body{
+        font-size:50%;
+    }
+    #nuub{
+        text-align:center;
+    }
+    #search{
+        height:30px;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px){
+    body{
+        font-size:25px;
+    }
+    #nuub{
+        text-align:center;
+    }
+    #search{
+        height:50px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px){
+    body{
+        font-size:30px;
+    }
+    #nuub{
+        text-align:center;
+    }
+    #search{
+        height:50px;
+    }
+}
+@media screen and (min-width:993px){
+    body{
+        font-size:20px;
+    }
+    #nuub{
+        text-align:right;
+    }
+    #search{
+        height:50px;
+    }
+    h1{
+        font-size:100px;
+    }
+}
