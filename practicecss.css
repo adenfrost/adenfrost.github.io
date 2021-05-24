@@ -1,0 +1,85 @@
+#button1{
+    color:whitesmoke;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:5vw;
+    width: 10vw;
+    border-radius: 50px;
+}
+#span1{
+    color:rgb(221, 129, 24);
+}
+#span2{
+    color:rgb(129, 221, 24);
+}
+#span3{
+    color:rgb(24, 221, 139);
+}
+#span4{
+    color:rgb(24, 109, 221);
+}
+#span5{
+    color:rgb(188, 24, 221);
+}
+#span6{
+    color:rgb(221, 24, 67);
+}
+#span7{
+    color:rgb(114, 60, 9);
+}
+#span8{
+    color:rgb(146, 11, 56);
+}
+#div2{
+    font-family: 'Permanent Marker', cursive;
+}
+@media screen and (max-width:575px)
+{
+    #div2{
+        font-size:30px;
+        text-align: center;
+    }
+    #button1{
+        height:35px;
+        width:55px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:768px)
+{
+    #div2{
+        text-align: center;
+        font-size:60px;
+    }
+    #button1{
+        height:85px;
+        width:125px;
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px)
+{
+    #div2{
+        /* font-size:30px; */
+        text-align: center;
+        font-size: 4%;
+    }
+    #button1{
+        height:150px;
+        width:200px;
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:993px) 
+{
+    #div2{
+        text-align: center;
+        font-size: 4vw;
+    }
+    #button1{
+        height:50px;
+        width:100px;
+        font-size: 20px;
+    }
+}
