@@ -6,7 +6,7 @@ function coolbutton(){
         c.innerText="Dark Mode";
         c.style.backgroundColor="black";
         c.style.color="whitesmoke";
-        let r = c.parentElement.parentElement;
+        let r = c.parentElement.parentElement.parentElement;
         r.style.color="black";
         r.style.backgroundColor="whitesmoke";
         let r1 = document.getElementById("span1");
@@ -33,7 +33,7 @@ function coolbutton(){
         c.innerText="Bright Mode";
         c.style.backgroundColor="whitesmoke";
         c.style.color="black";
-        let r = c.parentElement.parentElement;
+        let r = c.parentElement.parentElement.parentElement;
         r.style.color="whitesmoke";
         r.style.backgroundColor="black";
         let r1 = document.getElementById("span1");
