@@ -3,7 +3,7 @@ function coolbutton(){
     let c=document.getElementById("button1");
     if(count==0)
     {
-        c.innerText="Bright Mode";
+        c.innerText="Dark Mode";
         c.style.backgroundColor="black";
         c.style.color="whitesmoke";
         let r = c.parentElement.parentElement;
@@ -25,10 +25,12 @@ function coolbutton(){
         r1.style.color="rgb(114, 60, 9)";
         r1 = document.getElementById("span8");
         r1.style.color="rgb(146, 11, 56)";
+        r1=document.getElementById("submit1");
+        r1.style.color="black";
     }
     else
     {
-        c.innerText="Dark Mode";
+        c.innerText="Bright Mode";
         c.style.backgroundColor="whitesmoke";
         c.style.color="black";
         let r = c.parentElement.parentElement;
@@ -50,6 +52,8 @@ function coolbutton(){
         r1.style.color="rgb(129, 221, 24)";
         r1 = document.getElementById("span8");
         r1.style.color="rgb(221, 129, 24)";
+        r1=document.getElementById("submit1");
+        r1.style.color="white";
     }
     count=1-count;
 }
