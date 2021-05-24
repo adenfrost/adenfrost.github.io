@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <form method="get" action="https://www.google.com/search">
     <div id="div1">
         <button type="button" id="button1"onclick="coolbutton(event)">Dark Mode</button>
     </div>
@@ -18,8 +19,12 @@
     </div>
     <div id="div3">
         <button type="submit" id="submit1"><i class="fa fa-search"></i></button>
-        <input type="text" id="searchbox" placeholder="Type something">
+        <input type="text" id="searchbox" name="q" placeholder="Type something"size="31" value="">
     </div>
+    <!-- <div>
+        <button type="submit">Insignia</button>
+    </div> -->
+</form>
 </body>
 <script src="practicjs.js"></script>
 </html>
