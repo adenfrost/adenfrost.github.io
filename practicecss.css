@@ -113,7 +113,7 @@ button[type="submit"]{
         border-radius:50px;
         color:white;
         outline: none;
-        margin-left:-15px;
+        margin-left:-10px;
     }
     .fa-youtube{
         background-color: red;
@@ -121,7 +121,7 @@ button[type="submit"]{
         border-radius:50px;
         color:white;
         outline: none;
-        margin-left:-15px;
+        margin-left:-10px;
     }
     .fa-instagram{
         background-color: rgb(241, 52, 83);
@@ -129,7 +129,7 @@ button[type="submit"]{
         border-radius:50px;
         color:white;
         outline: none;
-        margin-left:-15px;
+        margin-left:-10px;
     }
     .fa-google{
         background-color: rgba(221, 220, 202, 0.829);
@@ -137,7 +137,7 @@ button[type="submit"]{
         border-radius:50px;
         color:blue;
         outline: none;
-        margin-left:-15px;
+        margin-left:-10px;
     }
     .fa-snapchat-ghost{
         background-color: rgb(253, 236, 0);
@@ -145,7 +145,7 @@ button[type="submit"]{
         border-radius:50px;
         color:white;
         outline: none;
-        margin-left:-15px;
+        margin-left:-10px;
         /* margin-right: 15px; */
     }
 }
