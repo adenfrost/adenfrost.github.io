@@ -236,9 +236,51 @@ button[type="submit"]{
         width:40vw;
     }
     #submit1{
-        margin-top:-150px;
+        margin-top:-100px;
         padding-left: 12px;
         font-size:30px ;
+    }
+    .fa-facebook{
+        background-color: rgb(4, 4, 158);
+        padding:17px 20px 17px 20px;
+        border-radius:50px;
+        outline: none;
+        color:white;
+    }
+    .fa-twitter{
+        background-color: blue;
+        padding:16px 16px 16px 16px;
+        border-radius:50px;
+        color:white;
+        outline: none;
+    }
+    .fa-youtube{
+        background-color: red;
+        padding:16px 18px 16px 18px;
+        border-radius:50px;
+        color:white;
+        outline: none;
+    }
+    .fa-instagram{
+        background-color: rgb(241, 52, 83);
+        padding:16px 18px 16px 18px;
+        border-radius:50px;
+        color:white;
+        outline: none;
+    }
+    .fa-google{
+        background-color: rgba(221, 220, 202, 0.829);
+        padding:16px 18px 16px 18px;
+        border-radius:50px;
+        color:blue;
+        outline: none;
+    }
+    .fa-snapchat-ghost{
+        background-color: rgb(253, 236, 0);
+        padding:16px 16px 16px 16px;
+        border-radius:50px;
+        color:white;
+        outline: none;
     }
 }
 @media screen and (min-width:993px) 
