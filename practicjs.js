@@ -27,10 +27,12 @@ function coolbutton(){
         r1.style.color="rgb(146, 11, 56)";
         r1=document.getElementById("submit1");
         r1.style.color="black";
+        // r1=document.getElementById("searchbox");
+        // r1.style.backgroundColor="grey";
     }
     else
     {
-        c.innerText="Bright Mode";
+        c.innerText="Light Mode";
         c.style.backgroundColor="whitesmoke";
         c.style.color="black";
         let r = c.parentElement.parentElement.parentElement;
