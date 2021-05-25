@@ -4,11 +4,12 @@ function coolbutton(){
     if(count==0)
     {
         c.innerText="Dark Mode";
-        c.style.backgroundColor="black";
-        c.style.color="whitesmoke";
-        let r = c.parentElement.parentElement.parentElement;
+        c.style.backgroundColor="transparent";
+        c.style.color="black";
+        let r = c.parentElement.parentElement.parentElement.parentElement;
         r.style.color="black";
-        r.style.backgroundColor="whitesmoke";
+        console.log(r);
+        r.style.backgroundImage="url(https://cdn.pixabay.com/photo/2018/08/21/23/29/fog-3622519_960_720.jpg)";
         let r1 = document.getElementById("span1");
         r1.style.color="rgb(221, 129, 24)";
         r1 = document.getElementById("span2");
@@ -27,17 +28,16 @@ function coolbutton(){
         r1.style.color="rgb(146, 11, 56)";
         r1=document.getElementById("submit1");
         r1.style.color="black";
-        // r1=document.getElementById("searchbox");
-        // r1.style.backgroundColor="grey";
     }
     else
     {
         c.innerText="Light Mode";
-        c.style.backgroundColor="whitesmoke";
-        c.style.color="black";
-        let r = c.parentElement.parentElement.parentElement;
+        c.style.backgroundColor="transparent";
+        c.style.borderColor="whitesmoke";
+        c.style.color="whitesmoke";
+        let r = c.parentElement.parentElement.parentElement.parentElement;
         r.style.color="whitesmoke";
-        r.style.backgroundColor="black";
+        r.style.backgroundImage="url(https://cdn.pixabay.com/photo/2017/03/02/16/54/iceland-2111811_960_720.jpg)";
         let r1 = document.getElementById("span1");
         r1.style.color="rgb(146, 11, 56)";
         r1 = document.getElementById("span2");
