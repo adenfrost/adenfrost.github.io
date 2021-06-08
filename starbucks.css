@@ -5,7 +5,7 @@
 html{
     font-size:0.3em;
     font-family: 'Staatliches', cursive;
-    overflow-x: hidden;
+    overflow-x:hidden;
 }
 #header{
     font-size: 3rem;
@@ -47,6 +47,21 @@ html{
     #store-icon{
         right:0;
     }
+    #box1{
+        font-size: 0.5em;
+    }
+    /* #div6>h2{
+        font-size:1.5em;
+        padding-bottom:0.5em;
+    } */
+    #rewards{
+        width:100%;
+        font-size: 3em;
+        padding: 1em 0 1em 0em;
+        background-color: #1e3932;
+        color:#fff;
+        text-align: center;
+    }
 }
 #store-icon{
     width:1em;
@@ -73,12 +88,13 @@ html{
     color: #fff;
 }
 #div2{
-    padding:6em;
+    /* padding:6em; */
     color: black;
     display: flex;
     background-image: url("https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-71056.png");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+    width:100%;
 }
 #div2>.col1{
     width:50%;
@@ -104,11 +120,9 @@ html{
     border:none;
 }
 #rewards{
-    border:1px solid;
-    width:100vw;
-    max-width:100%;
+    width:100%;
     font-size: 3em;
-    padding: 1em 0 1em 4.5em;
+    padding: 1em 0 1em 0;
     background-color: #1e3932;
     color:#fff;
 }
@@ -116,6 +130,7 @@ html{
     height:90em;
     display:flex;
     flex-direction: column;
+    width: 100%;
 }
 #div3>h2{
     font-size: 5em;
@@ -169,6 +184,7 @@ html{
     font-size: 4em;
     background:#d4e9e2;
     padding:1.7em 0 0.6em 0;
+    width:100%;
 }
 #div4>p{
     text-align:center;
@@ -178,6 +194,7 @@ html{
     background:#a7b6b1;
     display:flex;
     font-size: 4em;
+    width:100%;
 }
 #div5>#div51>h2{
     padding-bottom: 2em;
