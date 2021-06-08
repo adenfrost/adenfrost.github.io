@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size:0.3em;
+    font-family: 'Staatliches', cursive;
+}
+#header{
+    font-size: 3rem;
+    height:10rem;
+    display:flex;
+    align-items: center;
+}
+#header>div{
+    padding: 0rem 1.9rem 0rem 0rem;
+}
+#logo{
+    display:block;
+    width:3.3em;
+}
+#store-icon{
+    display:block;
+    width:1em;
+    padding: 0 0 0 47em;
+}
+@media screen and (max-width:700px){
+    html{
+        font-size:0.5em;
+    }
+    #store-icon{
+        padding:0 0 0 1em;
+    }
+}
+#div2{
+    width:100%;
+    height:120em;
+}
+#signin,#login{
+    font-family: 'Staatliches', cursive;
+    padding:0.4em 0.6em 0.4em 0.6em;
+    border-radius:1.5em;
+    outline:none;
+    border: 1px solid;
+    opacity:0.8; 
+    background-color: transparent;
+}
+#signin:hover,#login:hover{
+    opacity:1;
+}
+#login{
+    background: #000000;
+    color: #fff;
+}
+#div2{
+    padding:6em;
+    color: black;
+    display: flex;
+    background-image: url("https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-71056.png");
+    background-repeat: no-repeat;
+}
+#div2>.col1{
+    width:50%;
+    align-self: center;
+}
+#div2>.col1>h1{
+    font-size:8em;
+}
+#div2>.col1>p{
+    font-size: 3rem;
+}
+#div2>.col1>p>a{
+    color:black;
+}
+#div2>.col1>button{
+    background-color:
+    #008248;
+    color:rgb(253, 251, 251);
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding:0.7em 1em;
+    border-radius:2em;
+    border:none;
+}
+#rewards{
+    border:1px solid;
+    width:100%;
+    font-size: 3em;
+    padding: 1em 0 1em 4.5em;
+    background-color: #1e3932;
+    color:#fff;
+}
+#div3{
+    height:90em;
+    display:flex;
+    flex-direction: column;
+}
+#div3>h2{
+    font-size: 5em;
+    padding:3em 0 1em 0;
+    align-self:center;
+    font-weight: 900;
+}
+#div3>p{
+    font-size: 4em;
+    font-weight: 100;
+    align-self:center;
+    padding:0 0 2em 0;
+}
+#box1{
+    display:flex;
+    padding-left: 10em;
+    padding-right:10em;
+    justify-content: center;
+}
+#box-row1,#box-row2,#box-row3{
+    width:100%;
+    font-size: 4em;
+}
+#box-row1{
+    padding-right:2em;
+}
+#box-row2{
+    padding-right:2em;
+}
+#box-row1>h3,#box-row2>h3,#box-row3>h3,#box-row1>.number1,#box-row2>.number2,#box-row3>.number3{
+    text-align: center;
+    line-height: 3em;
+}.inner{
+    width:2em;
+    height:2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #008248;
+}
+.number1,.number2,.number3{
+    color:#008248;
+    display: flex;
+    justify-content: center;
+}
+#box-row1>p>a,#box-row2>p>a,#box-row3>p>a{
+    color: #008248;
+}
