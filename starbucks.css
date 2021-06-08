@@ -36,6 +36,17 @@ html{
 #signin{
     margin-left:1.3em;
 }
+@media (max-width:700px) {
+    html{
+        font-size: 0.1em;
+    }
+    #login,#signin{
+        display:none;
+    }
+    #store-icon{
+        right:0;
+    }
+}
 #store-icon{
     width:1em;
 }
@@ -64,6 +75,7 @@ html{
     color: black;
     display: flex;
     background-image: url("https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-71056.png");
+    background-size: cover;
     background-repeat: no-repeat;
 }
 #div2>.col1{
