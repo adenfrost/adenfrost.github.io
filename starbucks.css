@@ -19,18 +19,25 @@ html{
     display:block;
     width:3.3em;
 }
-#store-icon{
-    display:block;
-    width:1em;
-    padding: 0 0 0 47em;
+.right1{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    position:absolute;
+    right:0;
 }
-@media screen and (max-width:700px){
-    html{
-        font-size:0.5em;
-    }
-    #store-icon{
-        padding:0 0 0 1em;
-    }
+.right1>div{
+    padding:0.1em;
+}
+#login{
+    margin-left:1.3em;
+}
+#signin{
+    margin-left:1.3em;
+}
+#store-icon{
+    width:1em;
 }
 #div2{
     width:100%;
