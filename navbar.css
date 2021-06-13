@@ -1,0 +1,116 @@
+*{
+    margin:0;
+}
+*,*::before,*::after{
+    box-sizing:border-box;
+}
+body{
+    background-color: aqua;
+}
+.nav-items{
+    list-style:none;
+    display: flex;
+    padding-block:0.5em;
+    /* width:100%; */
+    /* border: 1px solid black; */
+    align-items: flex-end;
+    margin-left:auto;
+}
+.nav-items a{
+    color:black;
+    text-decoration:none;
+    margin-right:1em;
+    opacity:0.5;
+    position: relative;
+    /* border: 1px solid; */
+}
+.nav-items a::before{
+    content:'';
+    width:100%;
+    height:2.5px;
+    background-color: rgb(22, 0, 83);
+    position: absolute;
+    opacity: 0;
+    top:-0.5em;
+    transition: ease-out 400ms;
+}
+.nav-items a:hover,.nav-items a:hover::before{
+    opacity: 1;
+}
+.navbar{
+    background-color: blueviolet;
+    /* opacity: 0.7; */
+    width:100%;
+    position: fixed;
+    display: flex;
+}
+.logo{
+    /* padding: 0.5em; */
+    letter-spacing: 0.55em;
+    /* border: 1px solid greenyellow; */
+    /* border: 1px solid; */
+    height:50%;
+    align-self: center;
+    margin-left: 10px;
+    text-transform:uppercase;
+}
+.toggle{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display:none;
+    height:100%;
+}
+.stick1,.stick2,.stick3{
+    width:2em;
+    margin-left:0.5em;
+    height:5px;
+    background-color: black;
+    margin-bottom:0.15em;
+}
+.stick1{
+    margin-top:0.25em;
+}
+.toggle-label{
+    display:flex;
+}
+#checkbox{
+    display:none;
+}
+@media (max-width:700px) {
+    .toggle{
+        display: flex;
+        /* border: 1px solid; */
+        justify-content: center;
+    }
+    .nav-items{
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 1.8em;
+        width:100%;
+        padding:0 0 0 0.5em;
+        background-color:blueviolet;
+        opacity: 0;
+        transition: ease-in-out 300ms;
+    }
+    #checkbox:checked~ .nav-items{
+        opacity: 1;
+    }
+    .logo{
+        align-self: flex-start;
+    }
+    .navbar{
+        align-items: flex-start;
+        /* padding-top:0.25em; */
+    }
+    .navbar>*{
+        /* border: 1px solid; */
+        padding-block:0.5em;
+    }
+    .nav-items a::before{
+        content:'';
+        display: none;
+    }
+}
